@@ -1,0 +1,31 @@
+body{
+	background-image: url(../img/14.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+nav ul {
+	/*para quitar las viñetas de las listas*/
+	list-style: none;
+}
+nav li{
+	/*para poner las listas en horizontal*/
+	display: inline-block;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+nav a:hover{
+	background-color: white;
+	color: black;
+}
+.Logout{
+	position: relative;
+	left: 55%;
+}
+
+
