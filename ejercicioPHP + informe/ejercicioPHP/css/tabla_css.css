@@ -1,0 +1,19 @@
+.tabla tr:nth-child(even){
+	background: gray;
+	color: blue;
+}
+.tabla tr:nth-child(odd){
+	background: dimgray;
+	color: #fff;
+}
+.tabla tr:nth-child(1){
+	background: black;
+	color: white;
+}
+
+.tabla td {
+	border:2px;
+	text-align: center;
+}
+
+
