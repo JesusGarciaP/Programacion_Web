@@ -1,6 +1,6 @@
 body{
 	background-image: url(../img/14.jpg);
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-size: cover;
 }
 
@@ -12,7 +12,10 @@ nav li{
 	/*para poner las listas en horizontal*/
 	display: inline-block;
 }
-
+ /*nav{
+ 	background-color: black;
+ 	height: 50px;
+ }*/
 nav a{
 	text-decoration: none;
 	color: white;
@@ -25,7 +28,9 @@ nav a:hover{
 }
 .Logout{
 	position: relative;
-	left: 55%;
+	left: 50%;
 }
 
-
+.imagenes img{
+	width: 100%;
+}

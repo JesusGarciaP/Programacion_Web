@@ -1,0 +1,53 @@
+body{
+	scroll-behavior: unset;
+}
+header{
+	background-color: black;
+	height: 50px;
+
+}
+.row{
+	position: relative;
+	left: 3%;
+	display: inline-block;
+}
+.products div{
+	width: 250px;
+	height: 260px;
+}
+.products img{
+	width: 150px;
+}
+.card{
+	border-radius: 4px;
+	background-color: white;
+	box-shadow: 0 1px 3px rgb(0,0,0,0.24);
+}
+
+#row2{
+	position: relative;
+	left: 9%;
+}
+#row3{
+	position: relative;
+	left: 15%;
+}
+#row4{
+	position: relative;
+	left: 21%;
+}
+.btns:hover{
+	background-color: black;
+	color: #00FFFF;
+}
+button{
+	padding: 6px;
+	width: 60px;
+	border-style: none;
+	border-radius: 10px;
+	background-color: #00FFFF;
+}
+footer{
+	background-color: black;
+	height: 50px;
+}

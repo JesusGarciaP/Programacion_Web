@@ -7,7 +7,7 @@
 </head>
 <body>
 	<article>
-		<form>
+		<form action="../Datos/conexion.php" method="POST">
 		<div>
 			<fieldset>
 			<legend id="Datos">Datos requeridos:</legend>
@@ -17,16 +17,16 @@
 					<label>Apellidos:</label>
 					<input type="text" name="Apellido" placeholder="Apellidos"  class="color" required/><br>
 					<label>Usuario:</label>
-					<input type="text" name="Username" placeholder="nombre de usuario" class="color" required/><br>
+					<input type="text" name="Usuario" placeholder="nombre de usuario" class="color" required/><br>
 					<label>Correo:</label>
-					<input type="text" name="email" placeholder="ejemplo@gmail.com"  class="color" required/><br>
+					<input type="email" name="email" placeholder="ejemplo@gmail.com"  class="color" required/><br>
 					<label>Password:</label>
-					<input type="password" name="Contraseña" placeholder="contraseña" maxlength="12" class="color" required/><br>
+					<input type="password" name="Password" placeholder="contraseña" maxlength="12" class="color" required/><br>
 					<label>Confirm Password:</label>
 					<input type="password" name="ComfirmContraseña" placeholder="Confirmar contraseña" maxlength="12" class="color" required/><br>
 
-					<center><button type="submit" value="Aceptar" class="btns">Aceptar</button>
-					<a href="index.html" class="btns">Cancelar</a></center>
+					<center><button type="submit" value="Aceptar" class="btns">Aceptar</button>						
+					<a href="../index.php" class="btns">Cancelar</a></center>
 				</div>
 
 			</fieldset>
