@@ -1,0 +1,49 @@
+body{
+	background-image: url(../img/14.jpg);
+	/*background-attachment: fixed;*/
+	background-size: cover;
+}
+
+nav ul {
+	/*para quitar las viñetas de las listas*/
+	list-style: none;
+}
+nav li{
+	/*para poner las listas en horizontal*/
+	display: inline-block;
+}
+ /*nav{
+ 	background-color: black;
+ 	height: 50px;
+ }*/
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+nav a:hover{
+	background-color: white;
+	color: black;
+}
+.Logout{
+	position: relative;
+	left: 40%;
+}
+
+.imagenes img{
+	width: 100%;
+}
+#navs{
+	display: inline-block;
+	float: left;
+}
+.btnsCircle{
+	position: relative;
+	left: 800%;
+	padding: 5px;
+	height: 40px;
+	width: 40px;
+	border-style: none;
+	border-radius: 100%;
+}

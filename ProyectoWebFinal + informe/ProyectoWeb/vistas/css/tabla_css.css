@@ -1,0 +1,61 @@
+body{
+	background-image: url(../img/9.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+#contenido{
+	background-color: rgba(255,255,255,.1);
+	margin: 20px auto;
+	padding: 20px;
+	width: 50%;
+}
+form{
+	position: relative;
+	top: 100px;
+}
+#container{
+
+}
+table{
+	/*border: solid 1px black;*/
+	width: auto;
+}
+th{
+	padding: 7px;
+	text-align: center;
+}
+td{
+	border: solid 1px black;
+	text-align: center;
+}
+
+#tabla2 tr:nth-child(even){
+	background: #A9A9A9;
+	color: #0000CD;
+}
+#tabla2 tr:nth-child(odd){
+	background: #696969;
+	color: #fff;
+}
+#tabla2 tr:nth-child(1){
+	background: #2F4F4F;
+	color: #87CEEB;
+}
+
+#tabla2{
+	border-collapse: collapse;
+}
+#tabla2 th,td {
+	border:2px solid #800080;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+}
+
+#tabla2 td{
+	border-bottom: 1px solid  #800080;
+}
+
+#tabla2 th{
+	border-bottom: 4px solid  #800080;
+}
